@@ -31,7 +31,6 @@ export default function() {
         <Modal />
         <ResetCSS />
         <GlobalStyle />
-
         <AppWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-active">
             <Navbar />

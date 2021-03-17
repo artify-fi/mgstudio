@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import img from '../../../images/etusivu_webp/laskeutumis_kuva.webp'
+import img from '../../../images/etusivu_webp/etusivu_valokuva_large.webp'
 
 
 const BannerWrapper = styled.div`
@@ -13,29 +13,32 @@ const BannerWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-    max-height: 80vh;
+    max-height: 80vh;    
   }
-  @media only screen and (max-width: 1099px) {
-    min-height: 100vh;
+  @media only screen and (min-width: 1099px) and (max-width: 1200px) {
+    max-height: 80vh;
   }
   @media only screen and (max-width: 480px) {
     padding-top: 90px;
+    max-height: 90vh;
   }
+
   > div.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-height: calc(802px - 100px);
     @media only screen and (min-width: 1201px) and (max-width: 1440px) {
-      min-height: calc(100vh - 100px);
+      max-height: calc(100vh - 100px);
       margin-top: 35px;
       align-items: flex-start;
     }
     @media only screen and (max-width: 1099px) {
-      min-height: 100vh;
+      max-height: 80vh;
     }
     @media only screen and (max-width: 480px) {
       flex-wrap: wrap;
+      max-height: 80vh;
     }
   }
   .bannerBottomShape {

@@ -20,10 +20,9 @@ const Banner = () => {
         <BannerContent>         
           <Fade up delay={100}>
             <Heading
+            style={{ fontFamily: 'Playfair Display', fontWeight: 300}}
               as="h1"
-              content="The Revolution of
-             Ultimate Platform to
-             monitor your task"
+              content="Kauneus & Hyninvointi"
             />
           </Fade>         
         </BannerContent>       

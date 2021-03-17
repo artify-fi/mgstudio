@@ -3,6 +3,7 @@ module.exports = {
     title: `A react next landing page`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://hakukonestudio.fi/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -50,7 +51,25 @@ module.exports = {
         name: `data`,
         path: `../common/src/data/`,
       },
-    },
+    }, 
+    // {
+    //   /**
+    //    * First up is the WordPress source plugin that connects Gatsby
+    //    * to your WordPress site.
+    //    *
+    //    * visit the plugin docs to learn more
+    //    * https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-source-wordpress/README.md
+    //    *
+    //    */
+    //   resolve: `gatsby-source-wordpress`,
+    //   options: {
+    //     // the only required plugin option for WordPress is the GraphQL url.
+    //     url:
+    //       process.env.WPGRAPHQL_URL ||
+    //       `https://advanced.artbachmann.fi/mgstudio/graphql`,
+    //   },
+    // },
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-material-ui`,
@@ -148,6 +167,10 @@ module.exports = {
             },
             {
               family: `DM Sans`,
+              variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
+            },
+            {
+              family: `Playfair Display`,
               variants: [`400`, `400i`, `500`, `500i`, `700`, `700i`],
             },
           ],
