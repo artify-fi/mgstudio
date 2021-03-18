@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
+    title: `Kauneushoitola MG Studio Martinlaakso, Vantaa`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://hakukonestudio.fi/`,
+    author: `@Art Bachmann`,
+    siteUrl: `https://kauneushoitola-mgstudio-martinlaakso.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -101,23 +101,23 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://hakukonestudio.fi/',
-        sitemap: 'https://hakukonestudio.fi/sitemap.xml',
+        host: 'https://kauneushoitola-mgstudio-martinlaakso.netlify.app/',
+        sitemap: 'https://kauneushoitola-mgstudio-martinlaakso.netlify.app/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://hakukonestudio.fi/`,
+        siteUrl: `https://kauneushoitola-mgstudio-martinlaakso.netlify.app/`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-180499768-1',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-180499768-1',
+    //   },
+    // },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-webfonts`,
