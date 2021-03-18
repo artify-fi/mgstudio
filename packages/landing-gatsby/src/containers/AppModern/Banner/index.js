@@ -18,11 +18,10 @@ const Banner = () => {
     <BannerWrapper id="home">
       <Container>   
         <BannerContent>         
-          <Fade up delay={100}>
+          <Fade up delay={200}>
             <Heading
-            style={{ fontFamily: 'Playfair Display', fontWeight: 300}}
               as="h1"
-              content="Kauneus & Hyninvointi"
+              content="Kauneus & Hyvinvointi"
             />
           </Fade>         
         </BannerContent>       
